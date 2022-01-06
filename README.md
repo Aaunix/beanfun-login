@@ -10,23 +10,6 @@
 ## 环境初始化
 ### python安装（已配置略过即可）
 - 参考（第一节）：https://zhuanlan.zhihu.com/p/111168324
-### 编译源码（必须步骤）
-- 1.点击本项目的(绿色按钮)Code -> Download ZIP -> 解压缩
-- 1.或直接复制本项目的MapleStory.py内容到本地文件
-- cmd到源码目录，执行以下代码，在目录下生成一个dist文件夹，dist文件夹里面生成一个**MapleStory.exe**
-```bash
-# 设置pip镜像源为阿里云
-pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
-pip config set install.trusted-host mirrors.aliyun.com
-# 安装psutil包
-pip install psutil
-# 安装pyinstaller包
-pip install pyinstaller
-
-# 编译py源码为exe
-pyinstaller.exe -F -w MapleStory.py
-```
-
 ### 配置Locale emulator(已配置略过即可)
 #### 下载
 > Locale emulator是模拟语言环境的软件
@@ -39,9 +22,26 @@ pyinstaller.exe -F -w MapleStory.py
 - 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
 - 参考文档执行到1.2步骤即可，生成桌面图标**MapleStory.lnk**
 
-## 替换启动程序（关键）
+## 替换启动程序
+### 编译源码（必须步骤，取得MapleStory.exe）
+- 1.点击本项目的(绿色按钮)Code -> Download ZIP -> 解压缩
+- 1.或直接复制本项目的MapleStory.py内容到本地文件
+- 2.cmd到源码目录，执行以下代码，在目录下生成一个dist文件夹，dist文件夹里面生成一个**MapleStory.exe**
+```bash
+# 设置pip镜像源为阿里云
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+pip config set install.trusted-host mirrors.aliyun.com
+# 安装psutil包
+pip install psutil
+# 安装pyinstaller包
+pip install pyinstaller
+
+# 编译py源码为exe
+pyinstaller.exe -F -w MapleStory.py
+```
+### 替换启动程序（关键）
 - 1.把枫之谷游戏根目录的MapleStory.exe重命名为MapleStory2.exe
-- 2.把前面步骤打包好的MapleStory.exe，和使用Locale Emulator生成的快捷方式MapleStory.lnk放到同一个目录（任意位置）下
+- 2.把编译步骤编译好的MapleStory.exe和使用Locale Emulator生成的快捷方式MapleStory.lnk放到同一个目录（任意位置）下
 - 3.启动游戏：使用IE浏览器访问hk.beanfun.com或台号官网，登录账号后，依次点击綫上游戲 --> 楓之谷 --> 啓動 --> 然後游戲賬號 --> 開始遊戲
 - 4.因为第1步修改名称的原因，导致找不到相应的启动程序，网页会提示你"無法正確偵測遊戲安裝狀態"。并且出现两个按钮，选择左边的已安装，再选择第2步的目录的MapleStory.exe启动
 - 5.把第1步的MapleStory2.exe改回MapleStory.exe
