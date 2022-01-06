@@ -45,7 +45,7 @@ pyinstaller.exe -F -w MapleStory.py
 - 2.把前面步骤打包好的MapleStory.exe，和使用Locale Emulator生成的快捷方式MapleStory.lnk放到同一个目录（任意位置）下
 - 3.启动游戏：使用IE浏览器访问hk.beanfun.com或台号官网，登录账号后，依次点击綫上游戲 --> 楓之谷 --> 啓動 --> 然後游戲賬號 --> 開始遊戲
 - 4.因为第1步修改名称的原因，导致找不到相应的启动程序，网页会提示你"無法正確偵測遊戲安裝狀態"。并且出现两个按钮，选择左边的已安装，再选择第2步的目录的MapleStory.exe启动
-- 5.把第一步的MapleStory2.exe改回MapleStory.exe
+- 5.把第1步的MapleStory2.exe改回MapleStory.exe
 - 6.重新执行第3步启动游戏即可
 - 7.等待几秒，弹出开始游戏界面，点击开始即可
 
