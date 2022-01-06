@@ -1,7 +1,10 @@
 # TMS台服冒险岛网页登陆脚本
 > 个人写的直接网页登录的脚本，优势是不需要更换为繁体环境
+> 
 > 请自行复制源码编译exe，防止被注入病毒
+> 
 > 工具的下载地址都是给的github地址，有能力的玩家可以自行查看其代码
+> 
 > 不推荐下载来源不明的工具，以免下载到恶意修改的版本
 
 ## 初始化环境(已配置略过即可)
@@ -28,8 +31,11 @@ pyinstaller.exe -F -w MapleStory.py
 ### 配置Locale emulator(已配置略过即可)
 #### 下载
 > Locale emulator是模拟语言环境的软件
+>
 > 下载地址：https://github.com/xupefei/Locale-Emulator/releases
+> 
 > 目前最新v2.5.0.1，下载assets里面的Locale.Emulator.2.5.0.1.zip即可
+
 #### 配置
 - 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
 - 执行到1.2步骤即可，生成桌面图标**MapleStory.lnk**
