@@ -7,10 +7,10 @@
 > 
 > 不推荐下载来源不明的工具，以免下载到恶意修改的版本
 
-## 环境初始化(已配置略过即可)
-### python安装
+## 环境初始化
+### python安装（已配置略过即可）
 - 参考（第一节）：https://zhuanlan.zhihu.com/p/111168324
-### 编译源码
+### 编译源码（必须步骤）
 - 1.点击本项目的(绿色按钮)Code -> Download ZIP -> 解压缩
 - 1.或直接复制本项目的MapleStory.py内容到本地文件
 - cmd到源码目录，执行以下代码，在目录下生成一个dist文件夹，dist文件夹里面生成一个**MapleStory.exe**
@@ -27,7 +27,6 @@ pip install pyinstaller
 pyinstaller.exe -F -w MapleStory.py
 ```
 
-## 替换启动程序
 ### 配置Locale emulator(已配置略过即可)
 #### 下载
 > Locale emulator是模拟语言环境的软件
@@ -38,9 +37,9 @@ pyinstaller.exe -F -w MapleStory.py
 
 #### 配置
 - 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
-- 执行到1.2步骤即可，生成桌面图标**MapleStory.lnk**
+- 参考文档执行到1.2步骤即可，生成桌面图标**MapleStory.lnk**
 
-### 替换启动程序（关键）
+## 替换启动程序（关键）
 - 1.把枫之谷游戏根目录的MapleStory.exe重命名为MapleStory2.exe
 - 2.把前面步骤打包好的MapleStory.exe，和使用Locale Emulator生成的快捷方式MapleStory.lnk放到同一个目录（任意位置）下
 - 3.启动游戏：使用IE浏览器访问hk.beanfun.com或台号官网，登录账号后，依次点击綫上游戲 --> 楓之谷 --> 啓動 --> 然後游戲賬號 --> 開始遊戲
