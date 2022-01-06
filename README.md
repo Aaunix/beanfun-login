@@ -9,7 +9,7 @@ python环境部署，看到安装完python即可
 https://zhuanlan.zhihu.com/p/111168324
 ### 编译源码
 本地任意地方创建一个文件夹，右键创建一个MapleStory.py的文件，复制MapleStory.py源码覆盖本地文件内容
-cmd到当前目录，执行以下代码，最后在dist文件夹下生成一个*MapleStory.exe*
+cmd到当前目录，执行以下代码，最后在dist文件夹下生成一个**MapleStory.exe**
 ```bash
 # 设置pip镜像源为阿里云
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
@@ -31,7 +31,7 @@ Locale emulator是模拟语言环境的软件
 目前最新v2.5.0.1，下载assets里面的Locale.Emulator.2.5.0.1.zip即可
 #### 配置
 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
-执行到1.2步骤即可，生成桌面图标*MapleStory.lnk*
+执行到1.2步骤即可，生成桌面图标**MapleStory.lnk**
 ### 替换启动程序
 ```java
 1.把枫之谷游戏根目录的MapleStory.exe重命名为MapleStory2.exe
