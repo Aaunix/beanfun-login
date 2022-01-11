@@ -9,6 +9,7 @@ try:
     for proc in psutil.process_iter():
         if proc.name() == programName:
             prams = psutil.Process(proc.pid).cmdline()
+            # 添加启动参数
             os.system("start {} {} {} {} {} {}".format(lnk, prams[1], prams[2], prams[3], prams[4], prams[5]))
             sys.exit()
 
