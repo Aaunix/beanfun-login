@@ -12,7 +12,7 @@
 - 参考（第一节）：https://zhuanlan.zhihu.com/p/111168324
 ### 配置Locale emulator(已配置略过即可)
 #### 下载
-> Locale emulator是模拟语言环境的软件
+> Locale emulator是模拟语言环境的软件，本文使用此软件是生成模拟台湾繁体环境的快捷方式
 >
 > 下载地址：https://github.com/xupefei/Locale-Emulator/releases
 > 
@@ -20,14 +20,15 @@
 
 #### 配置
 - 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
-- 参考文档执行到1.2步骤即可，生成桌面图标**MapleStory.lnk**
+- 参考文档执行到1.2步骤即可，生成桌面快捷方式（一般电脑会隐藏后缀名）**MapleStory.lnk**
+- 最后一步【替换启动程序】步骤需要这个快捷方式
 
 ## 替换启动程序
 ### 编译源码（必须步骤，取得MapleStory.exe）
 - 1.点击本项目的(绿色按钮)Code -> Download ZIP -> 解压缩
 - 1.或直接复制本项目的MapleStory.py内容到本地文件
 - 2.cmd到源码目录，执行以下代码，在目录下会生成一个dist文件夹，dist文件夹里面会生成一个**MapleStory.exe**
-- 3.此exe文件在后续步骤使用
+- 3.最后一步【替换启动程序】步骤需要这个exe文件
 ```bash
 # 设置pip镜像源为阿里云
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
