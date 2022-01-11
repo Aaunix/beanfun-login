@@ -26,7 +26,8 @@
 ### 编译源码（必须步骤，取得MapleStory.exe）
 - 1.点击本项目的(绿色按钮)Code -> Download ZIP -> 解压缩
 - 1.或直接复制本项目的MapleStory.py内容到本地文件
-- 2.cmd到源码目录，执行以下代码，在目录下生成一个dist文件夹，dist文件夹里面生成一个**MapleStory.exe**
+- 2.cmd到源码目录，执行以下代码，在目录下会生成一个dist文件夹，dist文件夹里面会生成一个**MapleStory.exe**
+- 3.此exe文件在后续步骤使用
 ```bash
 # 设置pip镜像源为阿里云
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
@@ -47,4 +48,5 @@ pyinstaller.exe -F -w MapleStory.py
 - 5.把第1步的MapleStory2.exe改回MapleStory.exe
 - 6.重新执行第3步启动游戏即可
 - 7.等待几秒，弹出开始游戏界面，点击开始即可
+- 8.以后启动游戏直接执行**第3步**即可
 
