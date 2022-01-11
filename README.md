@@ -34,7 +34,8 @@
 - 4.执行命令后，会在目录下会生成一个dist和build文件夹，其中dist里面会有一个**MapleStory.exe**
 - 5.最后一步【替换启动程序】步骤需要这个exe文件
 ```bash
-# 设置pip镜像源为阿里云，依次复制下面5行代码，在cmd窗口执行即可。如果遇到报错，则是第一步环境初始化没有成功
+# 设置pip镜像源为阿里云和安装必须的py依赖包
+# 复制下面5行代码，在cmd窗口依次执行。如果遇到报错，则是第一步环境初始化没有成功
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 pip config set install.trusted-host mirrors.aliyun.com
 pip install psutil
