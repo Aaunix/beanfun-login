@@ -5,18 +5,11 @@ import psutil
 
 lnk = "MapleStory.lnk"
 programName = "MapleStory.exe"
-start = "start"
-space = " "
 try:
     for proc in psutil.process_iter():
         if proc.name() == programName:
             prams = psutil.Process(proc.pid).cmdline()
-            os.system(start + space + lnk +
-                      space + prams[1] +
-                      space + prams[2] +
-                      space + prams[3] +
-                      space + prams[4] +
-                      space + prams[5])
+            os.system("start {} {} {} {} {} {}".format(lnk, prams[1], prams[2], prams[3], prams[4], prams[5]))
             sys.exit()
 
 except Exception as e:
