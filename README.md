@@ -46,6 +46,7 @@ pyinstaller.exe -F -w MapleStory.py
 ```
 ---
 ### 替换启动程序（关键）
+- 0.开启加速器
 - 1.把枫之谷游戏根目录的MapleStory.exe重命名为MapleStory2.exe
 - 2.把编译步骤编译好的MapleStory.exe和使用Locale Emulator生成的快捷方式MapleStory.lnk放到同一个目录（任意位置）下
 - 3.启动游戏：使用IE浏览器访问hk.beanfun.com或台号官网，登录账号后，依次点击綫上游戲 --> 楓之谷 --> 啓動 --> 然後游戲賬號 --> 開始遊戲
