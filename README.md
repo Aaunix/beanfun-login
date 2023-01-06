@@ -21,7 +21,7 @@
 > 目前最新v1.4.6，下载assets里面的Locale_Remulator.1.4.6.zip即可
 
 #### 配置
-- 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
+- 参考：https://tieba.baidu.com/p/7934812236
 - 参考文档执行到1.2步骤即可，生成桌面快捷方式（一般电脑会隐藏后缀名）**MapleStory.lnk**
 - 最后一步【替换启动程序】步骤需要这个快捷方式
 
