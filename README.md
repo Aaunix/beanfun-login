@@ -12,13 +12,13 @@
 ### Python安装（已配置略过即可）
 > 为了后续编译源代码
 - 参考（第一节）：https://zhuanlan.zhihu.com/p/111168324
-### 配置Locale Emulator(已配置略过即可)
+### 配置Locale_Remulator(已配置略过即可)
 #### 下载
 > Locale emulator是模拟语言环境的软件，本文使用此软件是为了**生成模拟台湾繁体环境的快捷方式**
 >
->> 下载地址：https://github.com/xupefei/Locale-Emulator/releases
+>> 下载地址：https://github.com/InWILL/Locale_Remulator/releases
 > 
-> 目前最新v2.5.0.1，下载assets里面的Locale.Emulator.2.5.0.1.zip即可
+> 目前最新v1.4.6，下载assets里面的Locale_Remulator.1.4.6.zip即可
 
 #### 配置
 - 参考：https://ngabbs.com/read.php?tid=21293211&rand=334
