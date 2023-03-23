@@ -6,11 +6,7 @@
 ## 环境要求
 - Python3(编译本项目源码)
 - Locale_Remulator配置(生成模拟台湾繁体环境快捷方式)[https://github.com/InWILL/Locale_Remulator/releases]
-
-### LR配置
-- 参考：https://tieba.baidu.com/p/7934812236
-- 参考文档执行到1.2步骤即可，生成桌面快捷方式（一般电脑会隐藏后缀名）**MapleStory.lnk**
-
+  - LR配置参考：https://tieba.baidu.com/p/7934812236
 
 ## 源码编译（取得MapleStory.exe）
 ```bash
@@ -22,7 +18,7 @@ pip install pyinstaller
 # 编译py源码为exe，生成地址在同目录的dist下，名称为MapleStory.exe，根据py文件同名生成，如果名称不对则自行重命名即可
 pyinstaller.exe -F -w MapleStory.py
 ```
----
+
 ## 替换启动程序
 - 0.开启加速器
 - 1.把枫之谷游戏根目录的MapleStory.exe重命名为MapleStory2.exe
@@ -33,4 +29,3 @@ pyinstaller.exe -F -w MapleStory.py
 - 6.重新执行第3步启动游戏即可
 - 7.等待几秒，弹出开始游戏界面，点击开始即可
 - 8.以后启动游戏直接执行**第3步**即可
-
